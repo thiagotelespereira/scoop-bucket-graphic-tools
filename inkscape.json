@@ -1,6 +1,6 @@
 {
-    "version": "0.91",
     "homepage": "https://inkscape.org/pt/",
+    "version": "0.91",
     "architecture": {
        "64bit": {
            "url": "https://inkscape.org/en/gallery/item/3956/inkscape-0.91-x64.msi",
