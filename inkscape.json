@@ -3,12 +3,16 @@
     "homepage": "https://inkscape.org/pt/",
     "architecture": {
        "64bit": {
-           "url": "https://inkscape.org/en/gallery/item/3956/download/inkscape-0.91-x64.msi",
+           "url": "https://inkscape.org/en/gallery/item/3956/download/",
            "hash": "0f365282d8a4aec935099ee4038acdabda7fffa6fbdf5fe66969b4de6b25186c"
        },
        "32bit": {
-           "url": "https://inkscape.org/en/gallery/item/3950/download/inkscape-0.91.msi",
+           "url": "https://inkscape.org/en/gallery/item/3950/download/",
            "hash": "f197b84d59f04f484c6cf07f6bb2a831573d4d9ec5e650aa396e6281b66c99d5"
-       }
+       },
+       "bin":[
+           "inkscape-0.91-x64.msi",
+           "inkscape-0.91.msi"           
+       ]
    }
 }
