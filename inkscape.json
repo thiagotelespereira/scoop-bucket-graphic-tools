@@ -10,5 +10,13 @@
            "url": "https://inkscape.org/en/gallery/item/3950/inkscape-0.91.msi",
            "hash": "f197b84d59f04f484c6cf07f6bb2a831573d4d9ec5e650aa396e6281b66c99d5"
        }
-   }
+   },
+   "bin": "PFiles\\Inkscape\\inkscape.exe",
+   "env_add_path": "inkscape",
+   "env_set": {
+       "INKSCAPE" : "$dir"
+   },
+   "shortcuts":[
+       ["PFiles\\Inkscape\\inkscape.exe", "Inkscape"]
+   ]
 }
