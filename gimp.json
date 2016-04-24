@@ -1,0 +1,10 @@
+{
+    "version": "2.8.16",
+    "homepage": "https://www.gimp.org/",
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup-2.exe",
+    "hash": "md5:f64f32ba01284f8ad7c15c1b8ac12554",
+    "installer":{
+        "args":["$dir", "gimp"]
+    },
+    "license": "GNU"
+}
