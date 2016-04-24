@@ -2,18 +2,11 @@
     "homepage": "https://www.gimp.org/",
     "version": "2.8.16",
     "license": "GNU",
-    "url":[
-        "https://download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup-2.exe",
-        "https://gist.githubusercontent.com/thiagotelespereira/b5daaf8b2b5c7f2f2795ae4bc7e62e17/raw/d87dbaae3c05fb697f8134ac7642012ffd37adac/installer.ps1",
-        "https://gist.githubusercontent.com/thiagotelespereira/2ae8cc5d42cd5f1cb40b330daaf21948/raw/f8562d3a4955fd88acf3eaacd2bb40c9bb645418/template.ini"
-    ],
-    "hash":[
-        "md5:f64f32ba01284f8ad7c15c1b8ac12554",
-        "48e561b469f6a03b893e563ef818b6c52e27055d27fb93d73819082801a1b5f6",
-        "7bc91f0c6974cd8d149a53a8bc8734643da65112d28d9a13b0da7d18e840b570"
-    ],
-    "bin": "gimp-2.8.exe",
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup-2.exe",
+    "hash": "md5:f64f32ba01284f8ad7c15c1b8ac12554",
     "installer":{
-        "file" : "installer.ps1"
-    }
+        "args":["$dir", "gimp"],
+        "keep": true
+    },
+    "uninstaller": "gimp-2.8.16-setup-2.exe"
 }
