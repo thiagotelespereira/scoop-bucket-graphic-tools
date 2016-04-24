@@ -3,17 +3,5 @@
     "version": "2.8.16",
     "license": "GNU",
     "url": "https://download.gimp.org/mirror/pub/gimp/v2.8/windows/gimp-2.8.16-setup-2.exe",
-    "hash": "md5:f64f32ba01284f8ad7c15c1b8ac12554",
-    "installer":{
-        "args":["$dir", "gimp"]
-    },
-    "bin": "GIMP 2\\bin\\gimp-2.8.exe",
-    "env_add_path": "gimp",
-    "env_set": {
-        "GIMP" : "$dir"
-    },
-    "shortcuts":[
-        ["$dir\\GIMP 2\\bin\\gimp-2.8.exe", "GIMP"]
-    ],
-    "uninstaller": "$dir\\GIMP 2\\uninst\\unins000.exe"
+    "hash": "md5:f64f32ba01284f8ad7c15c1b8ac12554"
 }
